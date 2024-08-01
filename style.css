@@ -62,3 +62,20 @@ img {
   color: black;
   transition: all 0.3s;
 }
+
+@media (max-width: 375px) {
+  body {
+    justify-content: center;
+    align-items: center;
+  }
+  .main {
+    width: 270px;
+    height: 440px;
+  }
+  p {
+    font-size: 12px;
+  }
+  .box {
+    width: 230px;
+  }
+}
