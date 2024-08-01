@@ -8,7 +8,7 @@ body {
   width: auto;
 }
 /* main container changes */
-.main {
+main {
   display: flex;
   flex-direction: column;
   height: 500px;
@@ -54,7 +54,7 @@ img {
 }
 .box:hover {
   background-color: hsl(75, 94%, 57%);
-  transitio9: all 0.3s;
+  transition: all 0.3s;
 }
 .box-p {
   margin: 10px;
