@@ -1,0 +1,30 @@
+body {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 100vh;
+  width: auto;
+}
+
+.main {
+  /* margin: 375px; */
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 250px;
+  background-color: rgb(31, 31, 31);
+  border-radius: 10px;
+  /* justify-content: center; */
+  align-items: center;
+}
+img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  margin-top: 25px;
+}
+h3 {
+  color: hsl(0, 0%, 100%);
+}
